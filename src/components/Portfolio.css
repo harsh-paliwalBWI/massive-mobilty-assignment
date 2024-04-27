@@ -1,0 +1,132 @@
+.portfolio_page{
+  margin-top: 80px;
+  margin-left: 250px;
+  padding-left: 20px;
+  margin-bottom: 80px;
+}
+
+
+.portfolio_buttons button {
+  color: black;
+}
+.content{
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.portfolio_left {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+}
+
+.input_feild {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 0px;
+}
+.input_feild> Button{
+  padding: 14px;
+  margin-left: 10px; 
+  border: 1px solid #ccc !important; 
+  color: black !important; 
+}
+
+
+.filter_button svg {
+  fill: black; 
+}
+.feed{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 8px;
+  margin-left: 30px;
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+}
+.info h6 {
+  margin-right: 10px; /* Adjust as needed */
+  background-color: #E8F0EB;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.info_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.info_logo img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.info_name {
+  flex: 1;
+  padding-bottom: 10px 0;
+  margin-left: 10px 0px; 
+  border-bottom: 1px solid #ccc;
+}
+
+.info_name h5 {
+  margin: 0; 
+}
+.info_name p{
+  margin-left: -10px;
+}
+
+
+.para{
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the div horizontally */
+  padding: 20px ; /* Add padding for spacing */
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px; /* Add spacing between paragraphs */
+  font-size: 16px; /* Adjust font size */
+  line-height: 1.5; /* Adjust line height */
+}
+
+img {
+  max-width: 60%; /* Ensure images don't exceed container width */
+  display: block; /* Ensure images are displayed as blocks */
+  margin: 15px auto; /* Center the image horizontally with spacing */
+}
+.para  button {
+  margin-top: -10px;
+  float: right;
+  
+}
+.feed >p {
+  margin-left: 40px;
+  margin-bottom: 50;
+}
+.para2{
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the div horizontally */
+  padding: 20px ; /* Add padding for spacing */
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.para2 button{
+  border: 1px solid green;
+  color: green;
+}
+.portfolio_right{
+  display: flex;
+  flex: 0.3;
+  border: 1px solid #ccc;
+  margin: 20px;
+  border-radius: 10px;
+  height: 550px;
+}

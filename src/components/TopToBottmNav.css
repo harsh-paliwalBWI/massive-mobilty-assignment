@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+
+}
+
+.navbar__topToBottom {
+  border-right: 1px solid lightgray;
+}
+
+.navbar__top {
+  width: 250px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+   background-color:#FFFAF4;
+  height: 100vh; 
+}
+
+.navbar__top > img {
+  margin-left: 10px;
+  width: 178.29px; /* Adjust the width as needed */
+  height: 100%;
+}
+.navbar__top .MuiSvgIcon-root {
+  border: none;
+  background-color: none;
+}
+
+.navbar__avatar {
+  padding-bottom: 25px;
+}
+
+.navbar__topToBottom .MuiSvgIcon-root {
+  font-size: 30px;
+}
